@@ -1,7 +1,5 @@
-var path = require('path');
-
 module.exports = {
-	entry : "./entry.es6",
+	entry : "entry.es6",
 	output : {
 		path : __dirname,
         filename: "bundle.js",
